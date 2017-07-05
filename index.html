@@ -2,4 +2,29 @@
 <h1> Welcome to Phil's Website</h1>
   
   <h3> for a brief period of time, this was the newest website in the world</h3>
+  
+  <body>
+  		<script src="//blockr.io/js_external/coinwidget/coin.js"></script>
+		<script>
+			CoinWidgetCom.go({
+				wallet_address: '1QBr3ZXDyEiH8zky4KMbNw3ub7zKDKbudc',
+				currency: 'bitcoin',
+				counter: 'hide',
+				lbl_button: 'Donate to Phil',
+				lbl_count: '',
+				lbl_amount: 'BTC',
+				lbl_address: 'donate to the address below',
+				qrcode: true,
+				alignment: 'bl',
+				decimals: 8,
+				size: "big",
+				color: "dark",
+				countdownFrom: "0",
+				element: "#coinwidget-bitcoin-1QBr3ZXDyEiH8zky4KMbNw3ub7zKDKbudc",
+				onShow: function(){},
+				onHide: function(){}
+			});
+		</script>
+		<div id="coinwidget-bitcoin-1QBr3ZXDyEiH8zky4KMbNw3ub7zKDKbudc"></div>
+  </body>
 </html>
