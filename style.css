@@ -18,7 +18,7 @@
 body {
           font-family:'Open Sans', sans-serif;
     font-size:14px;
-    background-image:url(../img/sativa.png);
+    background-image:url(IMG_5938.png);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -133,7 +133,7 @@ border-color: #424242;
 #home-sec { 
   
     
-background: url(1.jpg) no-repeat 50% 50%;
+background: url(IMG_5938.PNG) no-repeat 50% 50%;
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
