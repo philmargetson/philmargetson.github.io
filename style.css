@@ -140,7 +140,7 @@ object-fit: contain;
 background-size: cover;
   overflow: hidden;
     background-size: cover;
-    background-position: center;
+
 	object-fit: contain;
 
 
@@ -151,8 +151,7 @@ background-size: cover;
 	
 max-width: 100%;
 height: auto;
-	
-display: block;
+
 height: auto;
  padding-top:190px;
     padding-bottom:200px;
