@@ -138,8 +138,8 @@ background-attachment: fixed;
 -webkit-background-size: cover;
 object-fit: contain;
 background-size: cover;
-  overflow: hidden;
-    background-size: cover;
+
+    
 
 	object-fit: contain;
 
@@ -152,7 +152,7 @@ background-size: cover;
 max-width: 100%;
 height: auto;
 
-height: auto;
+height: 100%;
  padding-top:190px;
     padding-bottom:200px;
     color:#000;
