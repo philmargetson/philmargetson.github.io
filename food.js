@@ -30,7 +30,7 @@ var pub=["footage","weatherspoons","coach and four"];
 var other=["pieminister","greens","earth cafe","the french","le bistrot pierre","lime bar","greggs","nandos","subway","alchemist","menagerie","laundrette","bakerie","moose coffee","artisan","las iguanas","smoke yard","cockadoodlemoo","revs de cuba","australasia"];
 //var selectedFoodCat = food[Math.floor(Math.random() * foodCat.length)];
 
-function submit() {
+function submit(){
 var foodCatList = document.getElementById("foodCat");
 var foodCatSelected = foodCatList.options[foodCatList.selectedIndex].text;
 
@@ -73,4 +73,4 @@ if(foodCatSelected=="other"){
 
 }
 }//end submit
-alert("selected food category is: "+selected);
+alert("selected food category is: "+foodCatSelected);
