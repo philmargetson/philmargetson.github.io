@@ -73,5 +73,6 @@ if(foodCatSelected=="tapas"){
 if(foodCatSelected=="other"){
 
 }
-}//end submit
+//end submit
 alert("selected food category is: "+foodCatSelected);
+}
