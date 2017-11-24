@@ -31,7 +31,7 @@ var other=["pieminister","greens","earth cafe","the french","le bistrot pierre",
 //var selectedFoodCat = food[Math.floor(Math.random() * foodCat.length)];
 
 function submit(foodCat,priceCat){
-var foodCatList = document.getElementById("foodCat").;
+var foodCatList = document.getElementById("foodCat");
 var foodCatSelected = foodCatList.options[foodCatList.selectedIndex].text;
 
 var priceCatList = document.getElementById("priceCat");
