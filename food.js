@@ -34,6 +34,7 @@ function submit(){
 var foodCatList = document.getElementById("foodCat");
 var foodCatSelected = foodCatList.options[foodCatList.selectedIndex].text;
 
+
 var priceCatList = document.getElementById("priceCat");
 var priceCatList = foodCatList.options[priceCatList.selectedIndex].text;
 
